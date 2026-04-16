@@ -1,0 +1,28 @@
+15:46:29 Neverlose HTTP server on http://0.0.0.0:30031/
+15:46:29   Serial: g6w/cgN2AuDsLw3xrzboM1kbkLy+osvg0Y/j0LJn...
+15:46:29 
+15:46:29 Discovered HTTP routes (via MakeRequest, vtable slot 0):
+15:46:29   GET /api/config
+15:46:29   GET /api/getavatar?size=100&token=<TOKEN>
+15:46:29   GET /api/sendlog?token=T&a=0&build=B&cont=C&dump=D&cheat=csgo
+15:46:29   GET /lua/<name>?token=T&cheat=csgo&build=B
+15:46:29 
+15:46:29 Additional routes (scripts/configs/langs management):
+15:46:29   GET/POST /api/scripts       - List/create scripts
+15:46:29   GET/POST /api/scripts/<name> - Get/update specific script
+15:46:29   GET/POST /api/configs       - List/create configs
+15:46:29   GET/POST /api/configs/<name> - Get/update specific config
+15:46:29   GET/POST /api/langs         - List/create languages
+15:46:29   GET/POST /api/langs/<code>   - Get/update specific language
+15:46:29 
+15:46:29 Note: Most requests use WebSocket (fn3, vtable slot 3) via wss_server.py
+15:46:29   WebSocket JSON types: {"type":0..5, "params":{...}}
+15:46:29 
+15:46:29 Waiting for requests...
+15:46:58   GET /api/getavatar?size=100&token=y9ru7e3Y8XE7mgvAuvg37E6J8Djv-1CboWpf8CJvH_lnj0qHgn5q
+15:46:58     params: {'size': ['100'], 'token': ['y9ru7e3Y8XE7mgvAuvg37E6J8Djv-1CboWpf8CJvH_lnj0qHgn5q']}
+15:46:58     -> MakeRequest(/api/getavatar, size=100, token=y9ru7e3Y8XE7mgvAuvg37E6J8Djv-1CboWpf8CJvH_lnj0qHgn5q)
+15:47:03   GET /api/reqitem?token=y9ru7e3Y8XE7mgvAuvg37E6J8Djv-1CboWpf8CJvH_lnj0qHgn5q&cheat=csgo&name=pui
+15:47:03     params: {'token': ['y9ru7e3Y8XE7mgvAuvg37E6J8Djv-1CboWpf8CJvH_lnj0qHgn5q'], 'cheat': ['csgo'], 'name': ['pui']}
+15:47:03     -> api/reqitem (name=pui)
+15:47:03     -> Serving stub C:\Program Files (x86)\Steam\steamapps\common\csgo legacy\nl_crack\nl_crack\server\lua\neverlose\pui.lua (1666 bytes)

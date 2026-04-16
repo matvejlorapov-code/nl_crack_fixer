@@ -1,0 +1,22 @@
+[
+  {
+    "method": "GET",
+    "path": "/api/getavatar",
+    "query": {
+      "size": [
+        "100"
+      ],
+      "token": [
+        "y9ru7e3Y8XE7mgvAuvg37E6J8Djv-1CboWpf8CJvH_lnj0qHgn5q"
+      ]
+    },
+    "headers": {
+      "Connection": "Keep-Alive",
+      "User-Agent": "NLR/1.0",
+      "Host": "127.0.0.1:30031"
+    },
+    "body": null,
+    "user_agent": "NLR/1.0",
+    "timestamp": 1775444792.3578298
+  }
+]
